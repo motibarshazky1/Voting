@@ -1,0 +1,45 @@
+.ui-container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.language-container {
+    border: 1px solid black;
+    background-color: rgb(71, 255, 15);
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    display: block;
+    text-align: center;
+    display: table;
+    table-layout: fixed;
+    border-spacing: 10px;
+    padding: 20px 20px;
+}
+
+.button {
+    border: none;
+    display: flex;
+    background-color: rgb(71, 255, 15);
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    color: black;
+    margin-left: 20px;
+}
+.name {
+    display: table-cell;
+    text-align: center;
+    font-size: 25px;
+}
+.votes {
+    display: table-cell;
+    font-size: 25px;
+}
